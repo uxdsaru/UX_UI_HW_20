@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-responsive{
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+/* Jumbotron Section */
+.jumbotron{
+    background: linear-gradient(180deg, #3D8EBC 0%, rgba(0, 0, 0, 0.15) 100%), #3D8EBC;
+    padding-bottom:0%;
+}
+
+.top{
+    padding-left: 27%;
+}
+
+.main{
+    padding-top: 5%;
+    padding-left: 27%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lead{
+    padding-left: 27%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mockup{
+    margin-top: -5%;
+}
+
+/* Project Overview Section */
+.aligned{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    padding-left: 13%;
+    padding-right: 15%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3D8EBC;
+}
+
+.desc{
+    padding-left: 13%;
+    padding-right: 15%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.fourcol{
+    padding-left: 13%;
+    padding-right: 15%;
+    padding-top: 2%;
+}
+
+h3{
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #161925;
+}
+
+.desc1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 15%;
+}
+
+/* Different Phase(s) Banner */
+.banner{
+    background: #3D8EBC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+}
+
+.center{
+    padding-top: 3%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.desc2{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.65;
+    padding-bottom: 3%;
+}
+
+/* Images placed on the Left */
+.LHS{
+    padding-left: 18%;
+    padding-top: 3%;
+}
+
+/* Images placed on the Right */
+.RHS{
+    padding-right: 15%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+/* Text on the Left */
+.TLHS{
+    padding-left: 18%;
+    padding-right: 15%;
+}
+
+/* Text on the Right */
+.TRHS{
+    padding-right: 15%;
+}
+
+.topbuffer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.leftaligned{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3D8EBC;
+}
+
+.aligned2{
+    padding-top: 4%;
+    padding-bottom: 1%;
+    padding-left: 18%;
+    padding-right: 15%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3D8EBC;
+}
+
+.center2{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.big{
+    padding-left: 5%;
+}
+
+.aligned1{
+    padding-top: 2%;
+    /* padding-bottom: 1%; */
+    padding-left: 18%;
+    padding-right: 15%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3D8EBC;
+}
+
+.link{
+    padding-left: 18%;
+    padding-right: 15%;
+    padding-top: 2%;
+    text-decoration: none;
+}
+
+.black{
+    color: #000000;
+}
+
+.black:hover{
+    text-decoration: underline;
+    color: #3D8EBC;
+    cursor: pointer;
+}
+
+
+
+/* Project at a Glance */
+h5{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+
+.desc5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding-top: 1.5%;
+}
+
+.top-pad{
+    padding-top: 3%;
+}
+.aligned3{
+    margin-top: 0%;
+    /* padding-bottom: 1%; */
+    padding-left: 18%;
+    padding-right: 15%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3D8EBC;
+}
+
+.fourcol2{
+    padding-left: 18%;
+    padding-right: 15%;
+    padding-top: 2%;
+    margin-top: -5%;
+    padding-bottom: 5%;
+}
+
+
+
+/* Footer Design */
+.threecol{
+    background-color: #EFE6DD;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.footerimg{
+    margin-left: 66%;
+    cursor: pointer;
+}
+
+.B1{
+    position:relative;
+    margin-left: 66%;
+    margin-top: 3.5%;
+}
+
+.B2{
+    margin-left: 90%;
+    margin-top: -6%;
+}
+.footerheading{
+    margin-left: 36%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.18538em;
+    color: #000000;
+}
+
+.proimg1 {
+    padding-left: 35%;
+    cursor: pointer;
+}
+
+.proimg2{
+    margin-left: -11%;
+    padding-top: 5.8%;
+    cursor: pointer;
+}
+
+/* Animated Buttons */
+.solid-blue{
+    width: 135px;
+    height: 36px;
+    background: #3D8EBC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #EFE6DD;
+    border: none;
+    cursor: pointer;
+}
+  
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #EFE6DD;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+.solid-blue:hover {
+    transition: 1s ease-in-out;
+    background: #3D8EBC;
+    /* color: #EFE6DD; */
+  }
+  
+.solid-blue:hover svg {
+    stroke-dashoffset: -480;
+  }
+
+.no-fill{
+    width: 135px;
+    height: 36px;
+    color: #23395B;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.no-fill:hover{
+    border: 1px solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Page Bottom */
+.end{
+    background-color: #23395B;
+}
+
+h6{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #EFE6DD;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
