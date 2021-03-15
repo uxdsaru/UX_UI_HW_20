@@ -1,8 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+.mt40 {margin-top: 40px;}
 
 html{
     scroll-behavior: smooth;
@@ -13,6 +9,23 @@ html{
     height: auto;
 }
 
+.centerImage {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+@media (max-width:768px){
+    .centerImage {
+        margin: 0 auto;
+    }
+}
+
+.verticalCenter {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
 .text-responsive{
     font-size: calc(100% + 1vw + 1vh);
 }
@@ -20,16 +33,11 @@ html{
 /* Jumbotron Section */
 .jumbotron{
     background: linear-gradient(180deg, #3D8EBC 0%, rgba(0, 0, 0, 0.15) 100%), #3D8EBC;
-    padding-bottom:0%;
-}
-
-.top{
-    padding-left: 27%;
+    padding: 0;
+    padding-top: 80px;
 }
 
 .main{
-    padding-top: 5%;
-    padding-left: 27%;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -40,7 +48,6 @@ html{
 }
 
 .lead{
-    padding-left: 27%;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -56,10 +63,8 @@ html{
 
 /* Project Overview Section */
 .aligned{
-    padding-top: 4%;
+    padding-top: 2%;
     padding-bottom: 1%;
-    padding-left: 13%;
-    padding-right: 15%;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -69,8 +74,6 @@ html{
 }
 
 .desc{
-    padding-left: 13%;
-    padding-right: 15%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -79,14 +82,8 @@ html{
     color: #000000;
 }
 
-.fourcol{
-    padding-left: 13%;
-    padding-right: 15%;
-    padding-top: 2%;
-}
-
 h3{
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 2%;
     font-family: Raleway;
     font-style: normal;
@@ -105,14 +102,14 @@ h3{
     line-height: 30px;
     text-align: center;
     color: #000000;
-    padding-bottom: 15%;
+    padding-bottom: 3%;
 }
 
 /* Different Phase(s) Banner */
 .banner{
     background: #3D8EBC;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .center{
@@ -139,61 +136,6 @@ h3{
     padding-bottom: 3%;
 }
 
-/* Images placed on the Left */
-.LHS{
-    padding-left: 18%;
-    padding-top: 3%;
-}
-
-/* Images placed on the Right */
-.RHS{
-    padding-right: 15%;
-    padding-left: 5%;
-    padding-top: 3%;
-}
-
-/* Text on the Left */
-.TLHS{
-    padding-left: 18%;
-    padding-right: 15%;
-}
-
-/* Text on the Right */
-.TRHS{
-    padding-right: 15%;
-}
-
-.topbuffer{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.leftaligned{
-    padding-top: 4%;
-    padding-bottom: 1%;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    color: #3D8EBC;
-}
-
-.aligned2{
-    padding-top: 4%;
-    padding-bottom: 1%;
-    padding-left: 18%;
-    padding-right: 15%;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    color: #3D8EBC;
-}
-
 .center2{
     padding-top: 4%;
     padding-bottom: 4%;
@@ -207,26 +149,7 @@ h3{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.big{
-    padding-left: 5%;
-}
-
-.aligned1{
-    padding-top: 2%;
-    /* padding-bottom: 1%; */
-    padding-left: 18%;
-    padding-right: 15%;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    color: #3D8EBC;
-}
-
 .link{
-    padding-left: 18%;
-    padding-right: 15%;
     padding-top: 2%;
     text-decoration: none;
 }
@@ -265,32 +188,6 @@ h5{
     padding-top: 1.5%;
 }
 
-.top-pad{
-    padding-top: 3%;
-}
-.aligned3{
-    margin-top: 0%;
-    /* padding-bottom: 1%; */
-    padding-left: 18%;
-    padding-right: 15%;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 35px;
-    color: #3D8EBC;
-}
-
-.fourcol2{
-    padding-left: 18%;
-    padding-right: 15%;
-    padding-top: 2%;
-    margin-top: -5%;
-    padding-bottom: 5%;
-}
-
-
-
 /* Footer Design */
 .threecol{
     background-color: #EFE6DD;
@@ -299,22 +196,15 @@ h5{
 }
 
 .footerimg{
-    margin-left: 66%;
     cursor: pointer;
 }
 
 .B1{
+    display:flex;
     position:relative;
-    margin-left: 66%;
-    margin-top: 3.5%;
 }
 
-.B2{
-    margin-left: 90%;
-    margin-top: -6%;
-}
 .footerheading{
-    margin-left: 36%;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -325,13 +215,10 @@ h5{
 }
 
 .proimg1 {
-    padding-left: 35%;
     cursor: pointer;
 }
 
 .proimg2{
-    margin-left: -11%;
-    padding-top: 5.8%;
     cursor: pointer;
 }
 
@@ -345,7 +232,7 @@ h5{
     border: none;
     cursor: pointer;
 }
-  
+
 svg {
     position: absolute;
     left: 0;
@@ -356,13 +243,13 @@ svg {
     stroke-dashoffset: 150;
     transition: 1s ease-in-out;
   }
-  
+
 .solid-blue:hover {
     transition: 1s ease-in-out;
     background: #3D8EBC;
     /* color: #EFE6DD; */
   }
-  
+
 .solid-blue:hover svg {
     stroke-dashoffset: -480;
   }
