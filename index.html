@@ -14,20 +14,32 @@
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> </head>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 
 <body>
 
     <div class='container-fluid'>
 
-        <!-- Header -->
+    <!-- Header -->
+    <!-- Go To Top Button -->
+    <a id=".js-to-top" href="#" class="btn btn-light btn-lg back-to-top d-none d-md-block" role="button">
+        <span class="material-icons md-40">keyboard_arrow_up</span>
+    </a>
+    <!-- Go To Top Button End-->
+
+
         <div class="row">
             <div class="col-lg-12">
-                <!-- Jumbotron Component -->
+
+                <!-- This section was created using Bootstrap 4’s Jumbotron Component -->
                 <div class="jumbotron">
                     <div class="row">
                         <div class="col-lg-5 col-md-5 col-sm-10 offset-1">
-                            <img class="top mt24" src="Images/Home.png">
+                            <a href="https://uxdsaru.github.io/UX_UI_HW_19/">
+                                <img class="top mt24" src="Images/Home.png">
+                            </a>
                             <h1 class="text-responsive display-4 main mt40"> POLLUTION PROBE </h1>
                             <p class="lead"> Non-Profit Website Redesign </p>
                         </div>
@@ -42,8 +54,8 @@
         <!-- Project Overview -->
         <div class="row">
             <div class="col-10 offset-1">
-                <h2 class="aligned"> PROJECT OVERVIEW </h2>
-                <p class='desc'>Pollution Probe is <b>Canada’s oldest NGO</b> that is working actively to conserve Canadian environment fore more than <b>50 years</b> now. However, their website design looks <b>outdated without a clear mission statement and unpolished user experience</b>. An overhaul is overdue and will <b>ensure Pollution Probe showcase their rich history of valuable contribution digitally that will encourage people to assist the organization’s initiatives</p>
+                <h2 class="aligned text-responsive"> PROJECT OVERVIEW </h2>
+                <p class='desc text-responsive'>Pollution Probe is <b>Canada’s oldest NGO</b> that is working actively to conserve Canadian environment fore more than <b>50 years</b> now. However, their website design looks <b>outdated without a clear mission statement and unpolished user experience</b>. An overhaul is overdue and will <b>ensure Pollution Probe showcase their rich history of valuable contribution digitally that will encourage people to assist the organization’s initiatives</p>
                 <p class='desc'>We developed a <b>Design Language System</b> that expanded on the foundation laid by the existing brand identity ensuring <b>functionality and consistency</b> across the website to <b>elevate the user experience</p>
 
         		<h2 class="aligned"> DESIGN METHODOLOGY & DELIVERABLES </h2>
@@ -75,13 +87,57 @@
             </div>
         </div>
 
-        <!-- Discovery Phase Banner -->
+    <!-- Process Section -->
+    <!-- This section was created using Bootstrap 4’s nav component -->
+    <section class="processSection" id="navbar">
+        <div class="responsiveFlexBox">
+            <div class="sectionTitleLeft">
+                <h3>Process</h3>
+            </div>
+            <div class="sectionContentRight">
+                <nav class="navbar navbar-expand-lg navbar-light secondNavigation">
+                    <div class="container-fluid secondNavContainer">
+                        <div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" aria-current="page" href="#researchSection">1.
+                                            Research Phase</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#definitionSection">2. Definition Phase</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#ideationSection">3. Ideation Phase</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#prototypingSection">4. Prototype & Test Phase</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link secondNavLink" href="#resultSection">5. Takeaways</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+        <!-- Research Phase Banner -->
+        <a id="researchSection"></a> 
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
-                            <h1 class="center">DISCOVERY PHASE</h1>
+                            <h1 class="center">RESEARCH PHASE</h1>
                             <p class="desc2">Goal : To understand the current industry standards for environment related NGO websites and our users expectations through research.</p>
                         </div>
                     </div>
@@ -89,6 +145,8 @@
             </div>
         </div>
 
+
+         <!-- This section was created using Bootstrap 4’s Col Class System -->
         <!-- Heuristic Evalutation -->
         <div class="row mt40">
             <div class="col-lg-4 col-md-4 col-sm-10 offset-1 verticalCenter">
@@ -177,6 +235,7 @@
         </div>
 
         <!-- Definition Phase Banner -->
+        <a id="definitionSection"></a>
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
@@ -243,6 +302,7 @@
         </div>
 
         <!-- Ideation Phase Banner -->
+        <a id="ideationSection"></a>
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
@@ -305,13 +365,14 @@
             </div>
         </div>
 
-        <!-- Design Phase Banner -->
+        <!-- Lo-Fi Prototype & Test Phase Banner -->
+        <a id="prototypingSection"></a>
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
-                            <h1 class="center">DESIGN PHASE</h1>
+                            <h1 class="center">Lo - Fi PROTOTYPE & TEST PHASE</h1>
                 			<p class="desc2"> Goal : To put our ideas into action and evaluate them against users expectations </p>
                         </div>
                     </div>
@@ -378,13 +439,13 @@
             </div>
         </div>
 
-        <!-- Prototype & Test Phase Banner -->
+        <!-- Hi-Fi Prototype & Test Phase Banner -->
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
-                            <h1 class="center">PROTOTYPE & TEST PHASE</h1>
+                            <h1 class="center">Hi - Fi PROTOTYPE & TEST PHASE</h1>
                 			<p class="desc2"> Goal : To polish our suggested solution through extensive testing </p>
                         </div>
                     </div>
@@ -487,6 +548,7 @@
         </div>
 
         <!-- Takeaways Banner -->
+        <a id="resultSection"></a>
         <div class="row mt40">
             <div class="col-lg-12">
                 <div class="banner">
@@ -545,7 +607,9 @@
         <!-- Footer -->
         <footer class="row threecol mt40">
             <div class="col-md-3 offset-md-1">
-                <img class="img-fluid footerimg" src="Images/Logo Bottom.png">
+                <a href="https://uxdsaru.github.io/UX_UI_HW_19/">
+                    <img class="img-fluid footerimg" src="Images/Logo Bottom.png">
+                </a>
                 <div class="B1">
 					<button class="solid-blue">
 						<svg width="135px" height="36px" viewBox="0 0 135 36" class="border">
@@ -576,5 +640,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="JS/index.js" charset="utf-8"></script>
 
 </html>
